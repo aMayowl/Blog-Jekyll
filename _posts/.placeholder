@@ -1,0 +1,27 @@
+---
+title: TITLE
+date: YYYY-MM-DD HH:MM:SS +/-TTTT
+categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+tags: []
+---
+
+video: https://www.youtube.com/watch?v=F8iOU1ci19Q&t=516s
+
+https://chirpy.cotes.page/posts/write-a-new-post/
+https://www.markdownguide.org/cheat-sheet/ 
+
+Jekyll uses a naming convention for pages and posts
+
+Create a file in _posts with the format
+
+YEAR-MONTH-DAY-title.md
+
+For example:
+
+2022-05-23-homelab-docs.md
+
+Image as "banner" + overview on main page. resolution of 1200*630 (or will be cropped)
+Add this on top:
+image:
+  path: https://i.redd.it/zw9r1pcn004d1.jpeg (link to image)
+  alt: test_banner image
